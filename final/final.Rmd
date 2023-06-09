@@ -103,6 +103,8 @@ ggplot(survey) +
   aes(y = agirhasarlibinasayisi) +
   geom_histogram()
 ```
+
+
 # Sonuç
 Bu çalışmada her geçen gün gerçekleşmesi daha da yaklaşan Büyük İstanbul depreminin olası sonuçları çeşitli değişkenler açısından değerlendirilmiştir. Deterministik bir deprem tehlikesi için Mw=7.5 büyüklüğünde bir senaryo depreminde oluşabilecek can kayıpları, yaralı insan sayısı, alt ve üstyapı zararları değerlendirilmiştir. İstanbul'un özellikle de Bağcılar, Büyükçekmece, Küçükçekmece, Avcılar ilçelerinde olası bir depremde yaşanabilecek en büyük can kayıpları verilmesi söz konusu olacaktır. Bu bölgelerde bulunan yapı stoku, alt-üst yapı büyük ölçüde zarar görecektir. Geçici barınma alanı sayısını depremin vereceği can mal mal kaybı tahminlere göre arttırmak önemli bir sorundur. Depremin en çok can kaybına neden olacağı mahallelerdeki barınma alanlarının arttırılması oldukça önemlidir. Orta, ağır ve çok ağır hasarlı binaların bulunduğu alanlarda can kaybının korele bir şekilde fazla olmasından dolayı bu bölgelerde yapılacak kentsel dönüşüm çalışmalarının bölgenin kültürel,fiziksel yapısı ve bölgenenin geleceği açısından kritik önem taşıdığı görülmüştür. Bu projelere belediyenin sağlayacağı rant gözüyle bakılsa da sonuçlarının kente faydaları göz ardı edilemeyecek derecede büyüktür. Günümüzdeki dönüşüm örnekleri genellikle yarım bırakılmış olsa da gelecekteki projelerde sürecin takip edilmesi, projenin nasıl sonuçlanacağı ve durumun artı ve eksilerinin iyice düşünülmesi gerekir.
  
