@@ -39,20 +39,15 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 # Giriş
 İstanbul geçmiş dönemlerde çok sayıda yıkıcı depremlere sahne olmuştur. Kayıtlarda Bizans döneminde şehirde yıkıma neden olan yaklaşık 26 depremin yaşandığı görülmektedir. Osmanlı döneminde meydana gelen birçok deprem ve yakın zamanda yaşanan 1999 depremi şehirde ciddi harabiyete ve çok sayıda can kaybına yol açmıştır. Yapılan çalışmalar Ana Marmara Fayı’nın yakın geçmişte kırılmamış segmentlerinde yoğun bir sismik enerji biriktiğini ve İstanbul’u şiddetli bir depremin beklediğini ortaya koymaktadır. İstanbul’un gerek ülkemiz gerek tüm dünya için taşıdığı önem göz önüne alınarak şehrin deprem öncesi ve sonrasına hazırlanması önem arzetmektedir (@csimcsek2021big). Bu çalışmamızda İstanbul Büyükşehir Belediyesi tarafından yayınlanan olası bir 7.5 mw büyüklüğündeki depremin çeşitli analiz sonuçlarının ortaya konduğu 960 gözlemli verisetinin içerisinden eleme usulü ile genel bir tablo ortaya koyup, ortaya çıkabilecek hasarları ve bunların önlenmesi için alınabilecek tedbirleri ele alacağız.
 
-
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
-
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Çalışmamızda olası büyük İstanbul depreminin ne kadar kişiyi etkileyeceğini ve sebep olabileceği olası can kayıplarını belirleyeceğiz. Aynı zamanda şehirdeki alt ve üstyapılara (ev, okul, işyeri, hastane, kültürel ve tarihi mekanlar,endüstriyel tesisler) ne derece bir zarar verme riski olduğunu ve bu risklerin azaltılması için nasıl tedbirler alınması gerektiğini ortaya koyacağız.
 
 ## Literatür 
+Dünyada olduğu gibi ülkemizde de,kentlerde nüfus artışı ve yapılaşmanın hızlı, yoğun ve de karmaşık halde gelişmesi nedenleriyle depremler büyük can ve mal kayıpları meydana getirmektedirler Doğal afetler içinde depremler verdikleri zararlar (%60) nedeniyle ön sırada yer alır. Ülkelerin ve kentlerin depreme hazırlıklı olabilmeleri için olası depremlerin yerleri, derinlikleri, kente yakınlıkları ve kentin zemin durumu dikkate alınarak yapılacak çok yönlü çalışmalar ve çeşitli organizasyonlarla ortaya konmalıdır. {@iskenderouglu2003istanbul}.İstanbul’da ortalama 800,000 adet bina bulunmaktadır. Hem şiddet hem de spektral deplasman bazlı yer hareketi ve hasargörebilirlik analizleri kullanılarak yapılan belirlemeler toplam bina stoğunun % 5’inin tamamen hasar göreceğini göstermektedir.70,000 binanın ağır hasar,200,000 binanın ise orta hasar göreceği tahmin edilmektedir.Can kayıplarının 30,000 ile 40,000 arasında değişeceği tahmin edilmektedir. Hastane bakımı gerektirecek yaralı sayısı 120,000 civarında olacaktır. Şiddet bazlı analiz sonucuna göre toplam 600,000 ailenin, spektral bazlı çalışmaya göre de 430,000 ailenin deprem sonrası acil barınma ihtiyacı doğacağı beklenmektedir. {@erdik2008earthquake} Ayrıca meydana gelmesi beklenen büyük depremden dolayı,İstanbul kentinin eşsiz tarih ve kültür mirası çok ciddi bir deprem tehditi altındadır.Şehrin altyapısında da muhtemel tehditler bulunmaktadır.Şehirde bulunan 480 köprünün yaklaşık olarak %5’inde muhtemel hasarlar beklenmektedir.Yine şehrin altyapısı içinde bulunan doğalgaz sistemi boru hatlarında da hasar meydana geleceği tahmin edilmektedir.Aynı zamanda İstanbul yakınlarında M7+ büyüklüğünde bir depremin olması durumunda kentteki endüstriyel tesislerede zarar vereceği düşünülmektedir.Kentteki endüstriyel deprem riski konusunda farklı endüstriyel sektörleri kapsayacak şekilde yapılan çalışmalar makine-ekipman kayıplarının %2-%30 arasında, stok kayıplarının ise %2-%35 arasında gerçekleşebileceğini göstermektedir.Depremin en önemli sonuçlarından birisi de mali sonuçlardır. 1999 Marmara depreminin mali sonuçları ülkemiz için büyük bir problem olmuştur.TÜSİAD, DPT ve Dünya Bankası (DB) tarafından hazırlanan çeşitliçalışmalarda Marmara Depremi’nin ekonomik sonuçlarına dair birbirine yakın rakamlar verilmekteydi.Mali kayıp TÜSİAD’a göre 17 milyar dolar,DPT’ye göre 15–19 milyar dolar, Dünya Bankası’na göre 12–17 milyar dolardır. Bu rakamlar GSYH açısından bakıldığında dönemin GSYH'sının %6-%10'una tekabül ediyordu.{@scd414035} İstanbul’da 7.5 büyüklüğünde bir depremde oluşacak toplam bina kayıpları bazı uzmanlar tarafından 20 milyar ABD doları,yine bazı uzmanlar tarafındansa 9-11 milyar ABD doları civarında tahmin edilmiştir. İstanbul’da beklenen toplam ekonomik kaybın ise 40-60 milyar ABD doları civarında gerçekleşmesi beklenmektedir.Kandilli Rasathanesinin 2018 yılında yayınladığı hasar tahmin raporunda ise yapısal hasarlardan kaynaklanan mali kaybın ortalama olara 68 Milyar Tl olacağı yine yapısal olmayan hasarlında aynı düzeyde olup toplam kaybın ortalama 120 Milyar Tl olacağı öngörülmüştür.{@kayaistanbulda} Beklenen depremde gerçekleşecek bütün bu sonuçların azaltılması için şehrin kültürel, fiziksel yapısı göz önünde bulundurulurak baştan aşağı ve şeffaf bir şekilde kentsel dönüşüm öncelikli bir plan uygulanması son derece önemlidir. Sıkışık yapı düzeni ve kalitesiz fiziksel çevre, gecekondulaşmanın varlığı kaçak yapılaşmanın neden olduğu çevre,imalathane ve diğer sanayi tesislerinin çevreyi etkilemesi ve benzeri gibi sorunların için yenileme, Rehabilitasyon, yeniden oluşturma, soylulaştırma gibi projelere öncelik vermek şehrin geleceği açısından büyük önem taşımaktadır.{@ozden2001kentsel}Bütün bu risklerin belirlenmesi ve takiben risklerin minimum düzeye indirilmesi konusu hem İstanbul hem de Türkiye için öncelikli meselelerden birisidir.
 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
 
 # Veri 
-Bu bölümde çalışmanızda kullandığınız veri setinin kaynağını, ham veri üzerinde herhangi bir işlem yaptıysanız bu işlemleri ve veri seti ile ilgili özet istatistikleri tartışınız. Bu bölümde tüm değişkenlere ait özet istatistikleri (ortalama, standart sapma, minimum, maksimum, vb. değerleri) içeren bir tablo (Tablo \ref{tab:ozet}) olması zorunludur. Tablolarınıza gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız. [@perkins:1991]
-
-Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'a aktaran ve özet istatistikleri üreten kodlar yer almalıdır.
+Bu çalışmada kullandığım veriseti İstanbul Büyükşehir Belediyesi tarafından 2021 yılında yayınlanan 7.5 Mw büyüklüğünde olacak deprem senaryosuna göre yapılan analizlerin sonuçlarını içerir. Buradaki bazı ilçe ve mahalle bazlı yapılan analizlerde olası bir depremde hasar oluşmadığından veya sadece minimum düzeyde hasar oluştuğundan bu sonuçları eleme yöntemi ile veriden çıkarılmıştır.Bunların sonucunda Tablo 1'de görülen özet istatistikler ortaya çıkmıştır.Bu verilere baktığımızda özellikle Avcılar, Büyükçekmece, Küçükçekmece ve Bakırköyde'ki çok ağır hasarlı bina sayısı ortalamanın bir hayli üstünde olduğu gözüküyor. Ayrıca ağır hasarlı bina sayısının dağılımı, hafif hasarlı bina sayısının dağılımından daha geniş yani olası bir depremde bu bölgelerdeki ağır hasarlı bina sayıları çoğunlukta olacak ve bununla orantılı bir şekilde can kayıpları fazla olacaktır.Yine ağır hasarlı bina sayısının fazla olduğu yerlerde hastanedeki tedavi sayısı ve ağır yaralı sayısı da fazladır bundan dolayı bu verilerin aralarında korelasyonun olduğunu söylemek mümkündür. Yine Beşiktaş, Beylikdüzü, Şişli, Sarıyer  gibi genelde afif hasarlı binaların yoğunlukta olduğu  bölgelerde ise yaralı sayısı genel olarak ortalamadan çok daha düşüktür. Yine ortalama geçiçi barınma alanı sayısının düşük olmasıortalama hasarın düşük olduğu yerlerde çok daha düşüktür, tam tersi olarak depremin ağır hasar verdiği yerlerde ise geçici barınma değeri çok daha fazladır.
 
 ```{r}
 library(tidyverse)
@@ -60,7 +55,7 @@ library(here)
 survey <- read_csv('https://raw.githubusercontent.com/KaanAkdere/final/main/data/survey.csv')
 ```
 
-Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
+
 
 ```{r, echo=FALSE}
 library(xtable) 
@@ -69,7 +64,6 @@ library(summarytools)
 st_options(lang = "tr")
 ```
 
-`echo=FALSE` seçeneği ile kodların türetilen pdf dosyasında görünmesini engelleyin ve sonuçlarınızı tablo halinde rapor edin.
 
 ```{r results='asis', echo=FALSE}
   survey %>%
@@ -94,7 +88,7 @@ $$
 Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. Çalışmanıza uygun biçimde histogram, nokta grafiği (Şekil \@ref(fig:plot) gibi), kutu grafiği, vb. grafikleri bu bölüme ekleyiniz. Şekillerinize de gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız.
 
 
-```{r plot, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
+```{r plot, echo=FALSE, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
 survey %>% 
 ggplot(aes(x = cankaybisayisi, y = hastanedetedavisayisi )) +
   geom_point() +
@@ -112,9 +106,8 @@ ggplot(survey) +
 
 
 # Sonuç
-Bu bölümde çalışmanızın sonuçlarını özetleyiniz. Sonuçlarınızın başlangıçta belirlediğiniz araştırma sorusuna ne derece cevap verdiğini ve ileride bu çalışmanın nasıl geliştirilebileceğini tartışınız.
-
-**Kaynakça bölümü Rmarkdown tarafından otomatik olarak oluşturulmaktadır. Taslak dosyada Kaynakça kısmında herhangi bir değişikliğe gerek yoktur.** 
+Bu çalışmada her geçen gün gerçekleşmesi daha da yaklaşan Büyük İstanbul depreminin olası sonuçları çeşitli değişkenler açısından değerlendirilmiştir. Deterministik bir deprem tehlikesi için Mw=7.5 büyüklüğünde bir senaryo depreminde oluşabilecek can kayıpları, yaralı insan sayısı, alt ve üstyapı zararları değerlendirilmiştir. İstanbul'un özellikle de Bağcılar, Büyükçekmece, Küçükçekmece, Avcılar ilçelerinde olası bir depremde yaşanabilecek en büyük can kayıpları verilmesi söz konusu olacaktır. Bu bölgelerde bulunan yapı stoku, alt-üst yapı büyük ölçüde zarar görecektir. Geçici barınma alanı sayısını depremin vereceği can mal mal kaybı tahminlere göre arttırmak önemli bir sorundur. Depremin en çok can kaybına neden olacağı mahallelerdeki barınma alanlarının arttırılması oldukça önemlidir. Orta, ağır ve çok ağır hasarlı binaların bulunduğu alanlarda can kaybının korele bir şekilde fazla olmasından dolayı bu bölgelerde yapılacak kentsel dönüşüm çalışmalarının bölgenin kültürel,fiziksel yapısı ve bölgenenin geleceği açısından kritik önem taşıdığı görülmüştür. Bu projelere belediyenin sağlayacağı rant gözüyle bakılsa da sonuçlarının kente faydaları göz ardı edilemeyecek derecede büyüktür. Günümüzdeki dönüşüm örnekleri genellikle yarım bırakılmış olsa da gelecekteki projelerde sürecin takip edilmesi, projenin nasıl sonuçlanacağı ve durumun artı ve eksilerinin iyice düşünülmesi gerekir.
+ 
 
 **_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
 
