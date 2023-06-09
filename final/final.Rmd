@@ -1,7 +1,6 @@
 ---
-title: "OLASI BÜYÜK İSTANBUL DEPREMİNDE OLUŞABİLECEK ÇEŞİTLİ HASARLAR VE ALINMASI GEREKEN ÖNLEMLR"
-author: 
-  - İsim Soyisim[^1 Kaan Berk Akdere]
+title: "OLASI BÜYÜK İSTANBUL DEPREMİNDE OLUŞABİLECEK ÇEŞİTLİ HASARLAR VE ALINMASI GEREKEN ÖNLEMLER"
+author: Kaan Berk Akdere [^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -25,7 +24,7 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
- Bu çalışmada Türkiyenin en büyük metropol kenti olan İstanbul'da yakın zamanda gerçekleşmesi beklenen depremin ülkemiz ve özellikle de kentin kendisine verebileceği alt-üst yapı zararlarına, bina hasarlarına, oluşturabileceği can ve mal kayıplarına, kültür varlıklarında oluşturabileceği hasarlara ve yine başta ülkemiz olmak üzere kent için olulşturabileceği mali kayıplara değineceğiz. Aynı zamanda deprem sırasında oluşabilecek yapısal olmayan risklerden (binanın taşıyıcı sistemi dışında kalan her türlü eşya, obje, nesne ve benzerlerinin neden olduğu riskler) bahsedeceğiz. Tüm bu riskleri azaltmanın iki temel şartına yani yeni yapılacak yapıların mevcut deprem riskini arttırmamasını sağlamak ve mevcut deprem riskinin azaltılması yönünde yapılması gerekenleri bu çalışmada ele alacağız
+ Bu çalışmada Türkiyenin en büyük metropol kenti olan İstanbul'da yakın zamanda gerçekleşmesi beklenen depremin ülkemiz ve özellikle de kentin kendisine verebileceği alt-üst yapı zararlarına, bina hasarlarına, oluşturabileceği can ve mal kayıplarına, kültür varlıklarında oluşturabileceği hasarlara ve yine başta ülkemiz olmak üzere kent için olulşturabileceği mali kayıplara değineceğiz. Aynı zamanda deprem sırasında oluşabilecek yapısal olmayan risklerden (binanın taşıyıcı sistemi dışında kalan her türlü eşya, obje, nesne ve benzerlerinin neden olduğu riskler) bahsedeceğiz. Tüm bu riskleri azaltmanın iki temel şartına yani yeni yapılacak yapıların mevcut deprem riskini arttırmamasını sağlamak ve mevcut deprem riskinin azaltılması yönünde yapılması gerekenleri bu çalışmada ele alacağız.
    . 
 ---
 ```{r setup, include=FALSE}
@@ -35,20 +34,10 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== NOTLAR ================================= -->
 <!-- ======================================================================= -->
-[^1]: Öğrenci Numarası, [Github Repo](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)
-
-# Final Hakkında Önemli Bilgiler
-
-\colorbox{BurntOrange}{GITHUB REPO BAĞLANTINIZI BU DOSYANIN 37. SATIRINA YAZINIZ!}
-
-**Proje gönderimi, Github repo linki ile birlikte ekampus sistemine bir zip dosyası yüklenerek yapılacaktır. Sisteme zip dosyası yüklemezseniz ve Github repo linki vermezseniz ara sınav ve final sınavlarına girmemiş sayılırsınız.**
-
-**Proje klasörünüzü sıkıştırdıktan sonra (`OgrenciNumarasi.zip` dosyası) 9 Haziran 2023 23:59'a kadar *ekampus.ankara.edu.tr* adresine yüklemeniz gerekmektedir.**
-
-\colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
+[^1]: 20080254, [Github Repo](https://github.com/KaanAkdere/final)
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
+İstanbul geçmiş dönemlerde çok sayıda yıkıcı depremlere sahne olmuştur. Kayıtlarda Bizans döneminde şehirde yıkıma neden olan yaklaşık 26 depremin yaşandığı görülmektedir. Osmanlı döneminde meydana gelen birçok deprem ve yakın zamanda yaşanan 1999 depremi şehirde ciddi harabiyete ve çok sayıda can kaybına yol açmıştır. Yapılan çalışmalar Ana Marmara Fayı’nın yakın geçmişte kırılmamış segmentlerinde yoğun bir sismik enerji biriktiğini ve İstanbul’u şiddetli bir depremin beklediğini ortaya koymaktadır. İstanbul’un gerek ülkemiz gerek tüm dünya için taşıdığı önem göz önüne alınarak şehrin deprem öncesi ve sonrasına hazırlanması önem arzetmektedir (@csimcsek2021big). Bu çalışmamızda İstanbul Büyükşehir Belediyesi tarafından yayınlanan olası bir 7.5 mw büyüklüğündeki depremin çeşitli analiz sonuçlarının ortaya konduğu 960 gözlemli verisetinin içerisinden eleme usulü ile genel bir tablo ortaya koyup, ortaya çıkabilecek hasarları ve bunların önlenmesi için alınabilecek tedbirleri ele alacağız.
 
 
 Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
@@ -68,14 +57,14 @@ Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'
 ```{r}
 library(tidyverse)
 library(here)
-survey <- read_csv(here("../data/survey.csv"))
+survey <- read_csv('https://raw.githubusercontent.com/KaanAkdere/final/main/data/survey.csv')
 ```
 
 Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
 
 ```{r, echo=FALSE}
 library(xtable) 
-# devtools::install_github("emraher/summarytools")
+# devtools::install_github("KaanAkdere/summarytools")
 library(summarytools)
 st_options(lang = "tr")
 ```
@@ -83,8 +72,8 @@ st_options(lang = "tr")
 `echo=FALSE` seçeneği ile kodların türetilen pdf dosyasında görünmesini engelleyin ve sonuçlarınızı tablo halinde rapor edin.
 
 ```{r results='asis', echo=FALSE}
-survey %>%
-  select("sex", "credits", "handedness", "height", "handspan") %>% 
+  survey %>%
+  select("ilceadi", "mahalleadi", "cokagirhasarlibinasayisi", "agirhasarlibinasayisi", "ortahasarlibinasayisi","hafifhasarlibinasayisi","cankaybisayisi","agiryaralisayisi","hastanedetedavisayisi","hafifyaralisayisi","dogalgazboruhasari","icmesuyuboruhasari","atiksuboruhasari","gecicibarinma") %>%
   descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
   xtable(caption = "Özet İstatistikler",
          label = "tab:ozet",
@@ -107,11 +96,18 @@ Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. �
 
 ```{r plot, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
 survey %>% 
-  ggplot(aes(x = handedness, y = handspan)) +
+ggplot(aes(x = cankaybisayisi, y = hastanedetedavisayisi )) +
   geom_point() +
   geom_smooth() +
-  scale_x_continuous("Handedness") + 
-  scale_y_continuous("Handspan")
+  scale_x_continuous("cankaybisayisi") + 
+  scale_y_continuous("hastanetedavisayisi")
+
+ggplot(survey) +
+  aes(x =cankaybisayisi) +
+  geom_histogram()
+ggplot(survey) +
+  aes(y = agirhasarlibinasayisi) +
+  geom_histogram()
 ```
 
 
