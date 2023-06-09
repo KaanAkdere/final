@@ -75,6 +75,13 @@ st_options(lang = "tr")
   print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
 ```
 
+
+
+
+
+
+
+
 # Yöntem ve Veri Analizi
 Bu bölümde veri setindeki bilgileri kullanarak çalışmanın amacına ulaşmak için kullanılacak yöntemleri açıklayın. Derste işlenen/işlenecek olan analiz yöntemlerinden (Hipotez testleri ve korelasyon analizi gibi) çalışmanın amacına ve veri setine uygun olanlar bu bölümde kullanılmalıdır. [@newbold:2003; @ozsoy:2010; @ozsoy:2014]
 
@@ -85,7 +92,6 @@ Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
 $$
 
 ```{r plot, echo=FALSE, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
-
 survey %>% 
 ggplot(aes(x = cankaybisayisi, y = hastanedetedavisayisi )) +
   geom_point() +
