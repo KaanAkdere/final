@@ -89,6 +89,7 @@ Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. �
 
 
 ```{r plot, echo=FALSE, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
+
 survey %>% 
 ggplot(aes(x = cankaybisayisi, y = hastanedetedavisayisi )) +
   geom_point() +
@@ -103,6 +104,17 @@ ggplot(survey) +
   aes(y = agirhasarlibinasayisi) +
   geom_histogram()
 ```
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Sonuç
